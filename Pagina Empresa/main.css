@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(135deg, #10216e 0%, #08721a 100%);
+    height: 70px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+
+}
+
+nav img {
+    width: 50px;
+    height: 60px;
+}
+
+a {
+    color: #fff;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.textos-header {
+    width: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+header img {
+    width: 1270px;
+    height: 600px;
+}
+
+.servicios {
+    width: 100%;
+    height: 650px;
+    background-color: #7767881f;
+    padding: 60px;
+    padding-top: 70px;
+
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 300px;
+
+}
+
+.parrafo {
+
+
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+ 
+
+.productos img  {
+    width: 600px;
+    height: 400px;
+    padding-top: 10px;
+     
+ 
+}
+.productos img  {
+    width: 600px;
+    height: 400px;
+    padding-top: 10px;
+     
+ 
+}
+
+.contactos img  {
+    width: 70px;
+    height: 65px;
+    padding-top: 10px;
+     
+ 
+}
+
+.contactos   {
+    width: 100%;
+    height: 650px;
+    background-color: #7767881f;
+    padding: 60px;
+    padding-top: 70px;
+   
+ 
+}
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.card {
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(21, 141, 240, 0.205);
+    border: 1px solid rgba(11, 94, 202, 0.253);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    height: 300px;
+}
+
+.contacto.titulo {
+    padding: 40px;
+}
+
+  
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 45%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .card {
+
+        width: 90%;
+        
+    }
+    .textos-header h1 {
+        font-size: 35px;
+
+    }
+
+    .textos-header {
+        width: 100%;
+        text-align: center;
+    }
+
+    header img {
+        width: 60%;
+
+
+
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .titulo {
+        font-size: 40px;
+
+
+    }
+
+    .contacto {
+        width: 100%;
+    height: 650px;
+    background-color: #7767881f;
+    padding: 60px;
+    padding-top: 70px;
+
+    }
+
+    a {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+
+    
+   
+
+}
+     
+.productos {
+    width: 100%;
+    height: 650px;
+    background-color: #7767881f;
+    padding: 60px;
+    padding-top: 70px;
+
+
+}
+
+
+
+@media screen and (max-width:450px) {
+
+    nav {
+        padding: 0 20px 0 20px;
+    }
+
+    .servicios.servicios {
+        height: 950px;
+    }
+
+    .titulo {
+        font-size: 30px;
+
+    }
+    .card {
+        height: 250px;
+    }
+}
