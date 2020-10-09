@@ -1,0 +1,295 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(135deg, #091e70 0%, #1b1a1a 0%);
+    height: 45px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+
+}
+
+nav img {
+    width: 30px;
+    height: 40px;
+}
+
+a {
+    color: #fff;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.textos-header {
+    width: 50%;
+
+}
+
+
+
+p {
+    padding-top: 20px;
+    font-size: 20px;
+
+  }
+
+
+    
+ 
+ 
+    .centrado{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         justify-content: left;
+        margin-left: -270px;
+        
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 40;
+        text-align: left;
+        padding-right: 30px;
+        padding-top: 90px;
+        float: left;
+        margin-left: 90px;
+        justify-content: right;
+        display: flex;
+        color: rgba(255, 251, 0, 0.815);
+       
+
+    }
+
+header img {
+    width: 1350px;
+    margin-left:-40px;
+    height: 600px;
+}   
+
+  #opacity header img {
+      opacity: .60;
+  }
+
+.información {
+    width: 100%;
+    height: 600px;
+    background-color: #332b3b1f;
+    padding: 40px;
+    padding-top: 70px;
+
+}
+
+   .titulo {
+    font-size: 50px;
+    font-weight: 300px;
+
+  }
+      
+
+   .formulario{
+       background-image: url(img/back.jpg);
+       background-repeat: no-repeat;
+       background-size: 1500px 600px;
+       height: 590px;
+
+   }
+
+      
+
+    .forms-register {
+    padding-top:90px;
+    width: 400px;
+    background: #1b1818;
+    padding: 70px;
+    margin: auto;
+    height: 80%;
+    margin-top: 190px;
+    color: rgb(240, 229, 229);
+    
+    box-shadow: 7px 13px 37px #1b1f17;
+ 
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+    
+
+    
+    
+  } 
+
+  .forms-register h4{
+      color: white;
+      font-size: 30px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 23px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        
+  }
+
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:  1px solid #585353;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+
+   }
+
+
+  .forms-register .botons {
+      width: 100%;
+      background: #1f53c5;
+      border: none;
+      padding: 12px;
+      color: white;
+      margin: 6px 9;
+      font-size: 16px;
+      padding: 15px;
+      font-size: 20px;
+       
+
+    }
+
+    .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+     
+    .forms-register a:hover {
+        color: white;
+        text-decoration: none;
+  
+    }
+     .forms-register botons{
+         width: 100%;
+         background: #859239;
+         border: none;
+         padding: 12px;
+         color: rgb(6, 29, 29);
+         margin: 16px o;
+         font-size: 16px;
+         
+
+     }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    .versiones .titulo {
+    padding: 40px;
+
+
+ }
+
+ @media screen and (max-width:900px) {
+    .card {
+        width: 45%;
+        height: 250px;
+    }
+
+
+@media screen and (max-width:650px) {
+    .card {
+
+        width: 90%;
+        
+    }
+    .textos-header h1 {
+        font-size: 35px;
+
+    }
+
+    .textos-header {
+        width: 100%;
+        text-align: center;
+    }
+
+    header img {
+        width: 60%;
+
+
+
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .titulo {
+        font-size: 40px;
+
+
+    }
+
+    .formulario {
+        height: 750px;
+
+
+    }
+
+    a {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+
+
+}
+
+ @media screen and (max-width:450px) {
+
+    nav {
+        padding: 0 20px 0 20px;
+    }
+
+    .historia.historia {
+        height: 950px;
+    }
+
+    .titulo {
+        font-size: 30px;
+
+   
+}
